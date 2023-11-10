@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaginaPrincipal">
+
+    <ImageButton
+        android:id="@+id/imgbtnImagenTuristico1"
+        android:layout_width="131dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="120dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/segovia"
+        app:layout_constraintEnd_toStartOf="@+id/imgbtnImagenTuristico2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtContadorLugarTuristico1"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/txtContadorLugarTuristico1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLugarTuristico1" />
+
+
+    <ImageButton
+        android:id="@+id/imgbtnImagenTuristico4"
+        android:layout_width="131dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/stone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtContadorLugarTuristico2" />
+
+    <TextView
+        android:id="@+id/txtContadorLugarTuristico4"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:text="@string/txtContadorLugarTuristico4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtContadorLugarTuristicoNum4"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <TextView
+        android:id="@+id/txtContadorLugarTuristicoNum4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="56dp"
+        android:text="@string/txtContadorLugarTuristicoNum4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLugarTuristico4" />
+
+    <ImageButton
+        android:id="@+id/imgbtnImagenTuristico2"
+        android:layout_width="131dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="92dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/tajmahal"
+        app:layout_constraintBottom_toTopOf="@+id/txtLugarTuristico2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtLugarTuristico1"
+        android:layout_width="128dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtLugarTuristico1"
+        app:layout_constraintEnd_toStartOf="@+id/txtLugarTuristico2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtnImagenTuristico1" />
+
+    <TextView
+        android:id="@+id/txtLugarTuristico3"
+        android:layout_width="128dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtLugarTuristico3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtnImagenTuristico3" />
+
+    <TextView
+        android:id="@+id/txtContadorLugarTuristicoNum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/txtContadorLugarTuristicoNum1"
+        app:layout_constraintEnd_toStartOf="@+id/txtContadorLugarTuristico2"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toEndOf="@+id/txtContadorLugarTuristico1"
+        app:layout_constraintTop_toBottomOf="@+id/txtLugarTuristico1" />
+
+    <TextView
+        android:id="@+id/txtContadorLugarTuristicoNum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/txtContadorLugarTuristicoNum2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toEndOf="@+id/txtContadorLugarTuristico2"
+        app:layout_constraintTop_toBottomOf="@+id/txtLugarTuristico2" />
+
+    <TextView
+        android:id="@+id/txtLugarTuristico2"
+        android:layout_width="128dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="252dp"
+        android:text="@string/txtLugarTuristico2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtContadorLugarTuristico3"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtContadorLugarTuristico3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLugarTuristico3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtContadorLugarTuristicoNum3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtContadorLugarTuristicoNum3"
+        app:layout_constraintEnd_toStartOf="@+id/txtContadorLugarTuristico4"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toEndOf="@+id/txtContadorLugarTuristico3"
+        app:layout_constraintTop_toBottomOf="@+id/txtLugarTuristico3" />
+
+    <TextView
+        android:id="@+id/txtContadorLugarTuristico2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="84dp"
+        android:text="@string/txtContadorLugarTuristico2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtContadorLugarTuristicoNum2"
+        app:layout_constraintTop_toBottomOf="@+id/txtLugarTuristico2" />
+
+    <TextView
+        android:id="@+id/txtLugarTuristico4"
+        android:layout_width="128dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:text="@string/txtLugarTuristico4"
+        app:layout_constraintBottom_toTopOf="@+id/txtContadorLugarTuristico4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtLugarTuristico3"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtnImagenTuristico4"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <ImageButton
+        android:id="@+id/imgbtnImagenTuristico3"
+        android:layout_width="131dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/japon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtContadorLugarTuristico1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

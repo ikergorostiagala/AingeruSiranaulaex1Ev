@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AingeruSiranaulaex1Ev</string>
+
+    // Pagina Principal
+    <string name="txtLugarTuristico1">Segovia: </string>
+    <string name="txtContadorLugarTuristico1">Nº de favoritos: </string>
+    <string name="txtContadorLugarTuristicoNum1">0</string>
+
+    <string name="txtLugarTuristico2">Taj Mahal: </string>
+    <string name="txtContadorLugarTuristico2">Nº de favoritos: </string>
+    <string name="txtContadorLugarTuristicoNum2">0</string>
+
+    <string name="txtLugarTuristico3">Japon: </string>
+    <string name="txtContadorLugarTuristico3">Nº de favoritos: </string>
+    <string name="txtContadorLugarTuristicoNum3">0</string>
+
+    <string name="txtLugarTuristico4">Stonehenge: </string>
+    <string name="txtContadorLugarTuristico4">Nº de favoritos: </string>
+    <string name="txtContadorLugarTuristicoNum4">0</string>
+
+    // Lugar turistico info
+    <string name="tajmahalInfo">El Taj Mahal es un monumento funerario construido entre 1632 y 1654 en la ciudad de Agra, estado de Uttar Pradesh (India), a orillas del río Yamuna, por el emperador musulmán Shah Jahan de la dinastía mogol. El imponente conjunto de edificios se erigió en honor de su esposa favorita, Arjumand Banu Begum —más conocida como Mumtaz Mahal—, que murió en el parto de su decimocuarto hijo. Se estima que en su construcción trabajaron unos 20 000 obreros bajo dirección de un conjunto de arquitectos liderados por el arquitecto de la corte, Ustad Ahmad Lahori.3​4​</string>
+    <string name="stoneInfo">Stonehenge es un monumento megalítico tipo crómlech, además de otros elementos como hoyos, fosos, montículos, etc., construido entre el final del Neolítico y principios de la Edad del Bronce, situado cerca de Amesbury, en el condado de Wiltshire, Inglaterra, a unos trece kilómetros al norte de Salisbury.
+
+    Los arqueólogos consideran como probables las fechas de construcción de las distintas fases y utilización entre el 3100 a. C. y el 2000 a. C. El foso y montículos circulares, los que constituyen la primera fase del monumento, se han datado en unos 5100 años atrás</string>
+
+    <string name="japonInfo">Japón es un país insular de Asia Oriental ubicado en el noroeste del océano Pacífico. Limita con el mar del Japón al oeste y se extiende desde el mar de Ojotsk en el norte hasta el mar de la China Oriental y Taiwán en el sur. Su territorio comprende un archipiélago de 6852 islas que cubren 377 975 km² sobre el denominado anillo de fuego del Pacífico; las cinco islas principales del país, de norte a sur, son Hokkaidō, Honshū, Shikoku, Kyūshū y Okinawa. Tokio es la capital y ciudad más grande de Japón, aunque el país cuenta con numerosas otras ciudades de gran importancia cultural y económica como Yokohama, Osaka, Nagoya, Sapporo, Fukuoka, Kobe y Kioto.</string>
+    <string name="segoviaInfo">El Acueducto de Segovia es un acueducto romano que llevaba agua a la ciudad española de Segovia hasta 1973.1​ Su construcción data de principios del siglo ii d. C., a finales del reinado del emperador Trajano o principios del de Adriano. La parte más visible, y por lo tanto famosa, es la arquería que cruza la plaza del Azoguejo.</string>
+    <string name="btnAtras">Atras</string>
+    <string name="btnAtrasFav">Marcar como favorito</string>
+</resources>
